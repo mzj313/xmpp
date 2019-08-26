@@ -1,0 +1,1 @@
+org.jivesoftware.launcher.Startup

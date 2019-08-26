@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+    <!-- 插件的class全称 -->
+    <class>org.mzj.test.openfire.MzjPlugin</class>
+    
+    <!-- 插件的名称，在web管理显示插件的名称 -->
+    <name>沐紫剑的插件</name>
+    
+    <description>大虾的插件</description>
+    <author>mzj</author>
+    <version>1.0.0</version>
+    <date>12/17/2017</date>
+    
+    <!--插件最小兼容openfire的版本 -->
+    <minServerVersion>4.2.1</minServerVersion>
+    
+    <adminconsole>
+        <tab id="tab-server"><!-- 顶级模块 -->
+            <sidebar id="sidebar-server-settings">
+                <item id="mzjweb" name="mzjweb" url="mzjweb.jsp"/>
+                <item id="broadcast" name="broadcast" url="broadcast.jsp"/>
+            </sidebar>
+        </tab>
+    </adminconsole>
+</plugin>
